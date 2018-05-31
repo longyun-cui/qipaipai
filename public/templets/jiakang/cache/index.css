@@ -1,0 +1,13 @@
+.side-head.active .side-logo{background:url("../images/logo2.png") left center no-repeat;}
+.side-logo{position:absolute;top:0;left:40px;height:100%;font-size:0;z-index:3; background:url("../images/logo.png") left center no-repeat; width: 190px;} 
+.side-logo a{ width: 180px; height: 80px; display: block;}
+@media (max-width:1199px){.side-head{padding:0 85px 0 30px;}
+.side-logo{left:30px;}
+}
+@media(max-width:767px){
+.side-head{padding:0 58px 0 15px;height:60px;line-height:60px;}
+.side-head.nav-open0{padding-right:15px;}
+.side-logo a{ width: 110px; height:60px; display: block;}
+.side-logo {left:15px;background:url("../images/logoma.png") left center no-repeat;}
+.side-head.active .side-logo {background:url("../images/logom.png") left center no-repeat;}
+}
