@@ -1,8 +1,0 @@
-<IfModule mod_rewrite.c>
-
-	RewriteEngine On
-
-	RewriteCond %{HTTP_HOST} !^qipaipai.top$ [NC]
-	RewriteRule (.*) http://qipaipai.top/$1 [L,R=301]
-
-</IfModule>
